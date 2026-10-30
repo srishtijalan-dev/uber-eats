@@ -1,0 +1,51 @@
+restaurant_id,restaurant_name,category,avg_rating,avg_prep_time_min,city_zone
+REST_001,Eatery_Indian_1,Indian,3.7,33,West End
+REST_002,Eatery_Italian_2,Italian,4.2,26,Suburbs
+REST_003,Eatery_Healthy_3,Healthy/Salads,4.4,32,University District
+REST_004,Eatery_Mexican_4,Mexican,4.5,20,University District
+REST_005,Eatery_Desserts_5,Desserts/Bakery,4.3,32,University District
+REST_006,Eatery_Fast Food_6,Fast Food,3.5,33,Downtown
+REST_007,Eatery_Mexican_7,Mexican,4.0,19,West End
+REST_008,Eatery_Mexican_8,Mexican,4.2,23,University District
+REST_009,Eatery_Desserts_9,Desserts/Bakery,3.6,17,Downtown
+REST_010,Eatery_Fast Food_10,Fast Food,4.0,24,West End
+REST_011,Eatery_Mexican_11,Mexican,3.5,33,Suburbs
+REST_012,Eatery_Healthy_12,Healthy/Salads,3.6,17,Downtown
+REST_013,Eatery_Healthy_13,Healthy/Salads,4.1,29,Northside
+REST_014,Eatery_Healthy_14,Healthy/Salads,3.7,15,Downtown
+REST_015,Eatery_Fast Food_15,Fast Food,4.3,21,Downtown
+REST_016,Eatery_Mexican_16,Mexican,4.5,26,West End
+REST_017,Eatery_Fast Food_17,Fast Food,4.6,31,Suburbs
+REST_018,Eatery_Healthy_18,Healthy/Salads,3.8,34,Northside
+REST_019,Eatery_Desserts_19,Desserts/Bakery,3.7,19,University District
+REST_020,Eatery_Mexican_20,Mexican,3.6,18,University District
+REST_021,Eatery_Mexican_21,Mexican,4.4,26,Downtown
+REST_022,Eatery_Asian_22,Asian/Sushi,4.5,34,West End
+REST_023,Eatery_Asian_23,Asian/Sushi,3.5,32,West End
+REST_024,Eatery_Indian_24,Indian,4.8,31,University District
+REST_025,Eatery_Italian_25,Italian,3.6,33,Northside
+REST_026,Eatery_Asian_26,Asian/Sushi,4.3,23,Suburbs
+REST_027,Eatery_Fast Food_27,Fast Food,4.5,18,Northside
+REST_028,Eatery_Asian_28,Asian/Sushi,4.7,16,Suburbs
+REST_029,Eatery_Indian_29,Indian,4.5,18,University District
+REST_030,Eatery_Mexican_30,Mexican,4.6,16,Suburbs
+REST_031,Eatery_Indian_31,Indian,4.0,29,West End
+REST_032,Eatery_Mexican_32,Mexican,4.6,16,Downtown
+REST_033,Eatery_Desserts_33,Desserts/Bakery,3.6,18,Downtown
+REST_034,Eatery_Desserts_34,Desserts/Bakery,4.8,20,University District
+REST_035,Eatery_Mexican_35,Mexican,4.3,21,West End
+REST_036,Eatery_Italian_36,Italian,4.6,24,Northside
+REST_037,Eatery_Asian_37,Asian/Sushi,4.1,33,West End
+REST_038,Eatery_Fast Food_38,Fast Food,4.4,33,Downtown
+REST_039,Eatery_Fast Food_39,Fast Food,4.2,26,Downtown
+REST_040,Eatery_Healthy_40,Healthy/Salads,4.5,17,West End
+REST_041,Eatery_Mexican_41,Mexican,3.6,27,West End
+REST_042,Eatery_Fast Food_42,Fast Food,3.6,32,Downtown
+REST_043,Eatery_Italian_43,Italian,3.8,22,Northside
+REST_044,Eatery_Mexican_44,Mexican,3.7,29,University District
+REST_045,Eatery_Italian_45,Italian,4.7,15,University District
+REST_046,Eatery_Fast Food_46,Fast Food,3.8,17,West End
+REST_047,Eatery_Fast Food_47,Fast Food,4.9,22,University District
+REST_048,Eatery_Healthy_48,Healthy/Salads,4.0,18,Downtown
+REST_049,Eatery_Fast Food_49,Fast Food,3.8,30,Downtown
+REST_050,Eatery_Mexican_50,Mexican,4.6,24,West End

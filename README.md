@@ -60,41 +60,11 @@ The platform runs on a relational schema generated from empirical food delivery 
 Across Days 2 through 5, multiple candidate algorithms were trained, tuned, and benchmarked against out-of-sample data.
 
 | Task / Domain | Candidate Models | Primary Evaluation Metrics | Selected Model | Production Rationale & Tradeoffs |
-| --- | --- | --- | --- | --- |
-| **Customer Segmentation (Day 2)** | • **K-Means** (k=2 to 7)<br>
-
-<br>• **DBSCAN** | • Silhouette Score: **0.163**<br>
-
-<br>• Inertia / Elbow Method<br>
-
-<br>• Outlier Noise Detection | **K-Means (k=3) + DBSCAN** | K-Means established 3 actionable marketing tiers. DBSCAN isolated 25 operational outlier accounts without distorting centroid boundaries. |
-| **Sentiment Analysis (Day 3)** | • **Linear SVM**<br>
-
-<br>• **Multinomial Naive Bayes**<br>
-
-<br>• **Rule-Based Lexicon** | • Accuracy: **98.3%** (SVM vs. NB)<br>
-
-<br>• Macro F1: **0.98**<br>
-
-<br>• Negative Recall: **1.00** | **Linear Support Vector Machine (LinearSVC)** | Maximum-margin separation across 1,500 TF-IDF features with zero false negatives on critical 1-star complaints. |
-| **Delivery Time Prediction (Day 4)** | • **Ridge Regression (L2)**<br>
-
-<br>• Baseline OLS Linear<br>
-
-<br>• Lasso Regression (L1)<br>
-
-<br>• Random Forest Regressor | • Ridge: **MAE 2.32 min**, RMSE 2.93 min, **R² = 0.938**<br>
-
-<br>• OLS: MAE 2.32 min, R² = 0.938<br>
-
-<br>• RF: MAE 2.80 min, R² = 0.909 | **Ridge Regression (L2)** | Matches OLS accuracy while regularizing collinear traffic and weather penalties. Executes in under 2 ms per inference. |
-| **Hourly Demand Forecasting (Day 5)** | • **Meta Prophet (Additive)**<br>
-
-<br>• **ARIMA(2, 0, 1)** | • ADF Stationarity (**p < 0.001**)<br>
-
-<br>• ARIMA MAE: **1.09 orders/hr**<br>
-
-<br>• Prophet MAE: **1.12 orders/hr** | **Meta Prophet** | Natively handles multi-frequency seasonal cycles (daily lunch and dinner peaks + weekend volume) without manual differencing. |
+| :--- | :--- | :--- | :--- | :--- |
+| **Customer Segmentation (Day 2)** | • **K-Means** (k=2 to 7)<br>• **DBSCAN** | • Silhouette Score: **0.163**<br>• Inertia / Elbow Method<br>• Outlier Noise Detection | **K-Means (k=3) + DBSCAN** | K-Means established 3 actionable marketing tiers. DBSCAN isolated 25 operational outlier accounts without distorting centroid boundaries. |
+| **Sentiment Analysis (Day 3)** | • **Linear SVM**<br>• **Multinomial Naive Bayes**<br>• **Rule-Based Lexicon** | • Accuracy: **98.3%** (SVM vs. NB)<br>• Macro F1: **0.98**<br>• Negative Recall: **1.00** | **Linear Support Vector Machine (LinearSVC)** | Maximum-margin separation across 1,500 TF-IDF features with zero false negatives on critical 1-star complaints. |
+| **Delivery Time Prediction (Day 4)** | • **Ridge Regression (L2)**<br>• Baseline OLS Linear<br>• Lasso Regression (L1)<br>• Random Forest Regressor | • Ridge: **MAE 2.32 min**, RMSE 2.93 min, **R² = 0.938**<br>• OLS: MAE 2.32 min, R² = 0.938<br>• RF: MAE 2.80 min, R² = 0.909 | **Ridge Regression (L2)** | Matches OLS accuracy while regularizing collinear traffic and weather penalties. Executes in under 2 ms per inference. |
+| **Hourly Demand Forecasting (Day 5)** | • **Meta Prophet (Additive)**<br>• **ARIMA(2, 0, 1)** | • ADF Stationarity (**p < 0.001**)<br>• ARIMA MAE: **1.09 orders/hr**<br>• Prophet MAE: **1.12 orders/hr** | **Meta Prophet** | Natively handles multi-frequency seasonal cycles (daily lunch and dinner peaks + weekend volume) without manual differencing. |
 
 ## 5. Business Analysis & Strategic Insights
 
